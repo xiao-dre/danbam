@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="../Assets/Logo.ico">
+    <link rel="stylesheet" href="../CSS/menu.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <title>Menu</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="item"><a href="home.html"><b>Home</b></a></li>
+            <li class="item"><a href="#"><b>Menu</b></a></li>
+            <li class="item"><a href="about.html"><b>About</b></a></li>
+            <li class="item"><a href="location.html"><b>Location</b></a></li>
+            <li class="item"><a href="contact-us.html"><b>Contact Us</b></a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1> Menu </h1>
+    </header>
+
+    <div class="content-1">
+        <h1>Promo</h1>
+        <div class="promo-slider">
+            <button class="prev"> &#9667; </button>
+            <div class="image-contents">
+                <img src="../Assets/Promo/Promo-1.png" alt="" class="image active" id="first">
+                <img src="../Assets/Promo/New-Menu.png" alt="" class="image" id="last">
+            </div>
+            <button class="next"> &#9657; </button>
+        </div>
+    </div>
+
+    <div class="content-2">
+        <h1> Foods </h1>
+        <li class="menus">
+            <ul>
+                <img src="../Assets/Food/Bibimbap.png" alt="" class="food-1">
+                <h3>Bibimbap</h3>
+                <h3>Rp 45.000</h3>
+                <button class="order" onclick="orderMenu()">Order</button>
+            </ul>
+            <ul>
+                <img src="../Assets/Food/Ddukbokki.png" alt="" class="food-1">
+                <h3>Ddubokki</h3>
+                <h3>Rp 50.000</h3>
+                <button class="order" onclick="orderMenu()">Order</button>
+            </ul>
+            <ul>
+                <img src="../Assets/Food/Japchae.png" alt="" class="food-1">
+                <h3>Japchae</h3>
+                <h3>Rp 35.000</h3>
+                <button class="order" onclick="orderMenu()">Order</button>
+            </ul>
+            <ul>
+                <img src="../Assets/Food/Kimbap.png" alt="" class="food-1">
+                <h3>Kimbap</h3>
+                <h3>Rp 35.000</h3>
+                <button class="order" onclick="orderMenu()">Order</button>
+            </ul>
+            <ul>
+                <img src="../Assets/Food/Spicy-Squids.png" alt="" class="food-1">
+                <h3>Spicy Squids</h3>
+                <h3>Rp 40.000</h3>
+                <button class="order" onclick="orderMenu()">Order</button>
+            </ul>
+        </li>
+    </div>
+
+    <div class="content-3">
+        <h1> Drinks </h1>
+        <li class="menus">
+            <ul>
+                <img src="../Assets/Drink/Blueberry-Latte.png" alt="" class="food-1">
+                <h3>Blueberry-Latte</h3>
+                <h3>Rp 25.000</h3>
+                <button class="order" onclick="orderMenu()">Order</button>
+            </ul>
+            <ul>
+                <img src="../Assets/Drink/Dalgona.png" alt="" class="food-1">
+                <h3>Dalgona Latte</h3>
+                <h3>Rp 20.000</h3>
+                <button class="order" onclick="orderMenu()">Order</button>
+            </ul>
+            <ul>
+                <img src="../Assets/Drink/Popcorn-Latte.png" alt="" class="food-1">
+                <h3>Popcord Latte</h3>
+                <h3>Rp 30.000</h3>
+                <button class="order" onclick="orderMenu()">Order</button>
+            </ul>
+            <ul>
+                <img src="../Assets/Drink/Strawberry-Latte.png" alt="" class="food-1">
+                <h3>Strawberry Latte</h3>
+                <h3>Rp 25.000</h3>
+                <button class="order" onclick="orderMenu()">Order</button>
+            </ul>
+            <ul>
+                <img src="../Assets/Drink/Untitled-1.png" alt="" class="food-1">
+                <h3>Banana Milk</h3>
+                <h3>Rp 25.000</h3>
+                <button class="order" onclick="orderMenu()">Order</button>
+            </ul>
+        </li>
+    </div>
+
+    <div class="content-4">
+        <h1> Desserts </h1>
+        <li class="menus">
+            <ul >
+                <img src="../Assets/Dessert/Hodugwaja.png" alt="" class="food-1">
+                <h3>Blueberry-Latte</h3>
+                <h3>Rp 25.000</h3>
+                <button class="order" onclick="orderMenu()">Order</button>
+            </ul>
+            <ul>
+                <img src="../Assets/Dessert/Hwachae.png" alt="" class="food-1">
+                <h3>Dalgona Latte</h3>
+                <h3>Rp 20.000</h3>
+                <button class="order" onclick="orderMenu()">Order</button>
+            </ul>
+            <ul>
+                <img src="../Assets/Dessert/Patbingsu.png" alt="" class="food-1">
+                <h3>Popcord Latte</h3>
+                <h3>Rp 30.000</h3>
+                <button class="order" onclick="orderMenu()">Order</button>
+            </ul>
+            <ul>
+                <img src="../Assets/Dessert/Songpyeon.png" alt="" class="food-1">
+                <h3>Strawberry Latte</h3>
+                <h3>Rp 25.000</h3>
+                <button class="order" onclick="orderMenu()">Order</button>
+            </ul>
+            <ul>
+                <img src="../Assets/Dessert/Songpyeon.png" alt="" class="food-1">
+                <h3>Banana Milk</h3>
+                <h3>Rp 25.000</h3>
+                <button class="order" onclick="orderMenu()">Order</button>
+            </ul>
+        </li>
+    </div>
+
+    <footer>
+        <h2>Contact Us</h2>
+        <a href="contact-us.html">Here</a>
+    </footer>
+
+</body>
+<script src="../JS/Slider.js"></script>
+<script src="../JS/Order.js"></script>
+</html>

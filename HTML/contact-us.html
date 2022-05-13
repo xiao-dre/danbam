@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="../Assets/Logo.ico">
+    <link rel="stylesheet" href="../CSS/contact-us.css">
+    <script src="../JS/contact-us.js" async defer></script>
+    <title>Contact Us</title>
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Contact Us</h1>
+        <form method="POST" action="home.html" id="register-form">
+            <div class="row">
+                <div class="col-25">
+                    <label for="first-name">First Name</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="first-name" name="firstname" placeholder="Your name..">
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-25">
+                    <label for="last-name">Last Name</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="last-name" name="lastname" placeholder="Your last name..">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                    <label for="country">Gender</label>
+                </div>
+                <div class="col-75">
+                    <select id="" name="gender">
+                        <option value="">Select</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                    <label for="country">Location</label>
+                </div>
+                <div class="col-75">
+                    <select id="" name="location">
+                        <option value="">Select</option>
+                        <option value="tojeong">33-1 Tojeong-ro, Hapjeong-dong, Mapo-gu, Seoul, South Korea</option>
+                        <option value="sinheung">43 Sinheung-ro 20-gil, Huam-dong, Yongsan-gu, Seoul, South Korea</option>
+                        <option value="jahamun">43 16 Jahamun-ro, Jongno-gu, Seoul, South Korea</option>
+                        <option value="sawit">Jl. Kelapa Sawit Raya Blok BF 1 No. 18 Ruko Opal Gading Serpong, Tangerang, Banten</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                <label for="subject">Subject</label>
+                </div>
+                <div class="col-75">
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                </div>
+            </div>
+
+            <!-- <a href="home.html"><input type="submit" value="Submit" class="submit"></a> <br> -->
+            <!-- <a class="submit-button" id="submit">Submit</a>  -->
+            <input type="submit" value="Submit" class="submit-button" href="home.html">
+
+        </form>
+      </div>
+</body>
+</html>
