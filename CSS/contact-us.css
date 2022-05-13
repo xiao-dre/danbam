@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../Assets/Header.jpg);
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+}
+
+.wrapper {
+    width: 30%;
+    color: black;
+    background-color: white;
+    padding: 2em;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(195, 195, 195);
+    border-radius: 4px;
+    resize: vertical;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+.submit-button {
+    margin-top: 1em;
+    background-color: #aa04aa;
+    text-decoration: none;
+    color: white;
+    border: none;
+    padding: 1em 1.5em;
+    border-radius: 6px;
+    cursor: pointer;
+    float: right;
+}
+
+.submit-button:hover {
+    background-color: #8f418f;
+    text-decoration: underline;
+}
+
+.wrapper {
+    border-radius: 5px;
+    background-color: white;
+    padding: 20px;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+
+    body {
+        padding-top: 20%;
+        width: 100%;
+    }
+
+    .wrapper {
+        width: 80%;
+    }
+
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+}

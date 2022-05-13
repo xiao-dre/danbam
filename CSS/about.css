@@ -1,0 +1,180 @@
+html {
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    padding: 0.5em;
+}
+
+li a :hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+nav {
+    background-color: black;
+}
+
+nav ul {
+    display: flex;
+    padding: 2em;
+}
+
+header {
+    background: url(../Assets/Header.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    height: 95vh;
+    text-align: center;
+    padding: 0.8em 1.2em;
+    color: white;
+}
+
+header h1 {
+    font-size: 3em;
+    padding-top: 2.3em;
+    text-shadow: 2px;
+}
+
+.content-1 {
+    width: 100%;
+    text-align: center;
+}
+
+.content-1 h1 {
+    padding-bottom: 2em;
+}
+
+.img-1 {
+    width: 50%;
+}
+
+.content-1 p {
+    font-size: 1.5em;
+    padding: 2em 8em;
+    text-align: center;
+}
+
+.content-2 {
+    background: #EFEFEF;
+    text-align: center;
+    padding: 2em;
+}
+
+.content-2 img {
+    width: 70%;
+}
+
+.content-2 h1 {
+    font-size: 3em;
+    padding-bottom: 1.5em;
+}
+
+.content-2 ul li {
+    padding-bottom: 2em;
+}
+
+.social-media {
+    background-color: white;
+    text-align: center;
+    padding: 2em;
+}
+
+.social-media img {
+    width: 30%;
+}
+
+.social-media h2 {
+    padding-bottom: 3em;
+}
+
+.social-media ul li {
+    padding-bottom: 2em;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 2em;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+}
+
+@media only screen and (min-width:1020px) {
+    h1 {
+        font-size: 3em;
+    }
+
+    .subhead {
+        font-size: 1.4em;
+    }
+
+    header {
+        background-color: rgba(0, 0, 0, 0.3);
+        background-blend-mode: darken;
+    }
+
+    .item {
+        display: block;
+    }
+
+    .toggle {
+        display: none;
+    }
+    
+    .content-2 ul {
+        display: flex;
+    }
+
+    .content-2 li {
+        padding: 2em;
+    }
+
+    .social-media img {
+        width: 30%;
+    }
+
+    .social-media ul {
+        display: flex;
+    }
+
+    .social-media li {
+        padding: 2em;
+    }
+}
+
+@media only screen and (max-width:720px) {
+    nav ul {
+        flex-direction: column;
+    }
+    nav li {
+        font-size: 1.2em;
+        text-align: center;
+        padding-top: 1em;
+        padding-bottom: 2em;
+    }
+
+    header {
+        background-color: rgba(0, 0, 0, 0.3);
+        background-blend-mode: darken;
+    }
+}
